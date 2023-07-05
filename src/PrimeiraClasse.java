@@ -5,6 +5,10 @@ public class PrimeiraClasse {
 
         int anoDeLancamento = 2017;
         System.out.println("Ano de Lançamento: " + anoDeLancamento);
+        System.out.println("Incluido no plano?");
+
+        boolean incluidoNoPlano = true;
+        float notaDoFilme = 9.6;
 
 
     }
