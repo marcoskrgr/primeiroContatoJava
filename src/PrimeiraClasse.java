@@ -8,7 +8,7 @@ public class PrimeiraClasse {
         System.out.println("Incluido no plano?");
 
         boolean incluidoNoPlano = true;
-        float notaDoFilme = 9.6;
+        double notaDoFilme = 9.6;
 
 
     }
