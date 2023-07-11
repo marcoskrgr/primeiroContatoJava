@@ -36,7 +36,7 @@ public class Desafio {
                 double valor = leitura.nextDouble();
                     if (valor > saldoAtual) {
                         System.out.println("Não há saldo para isso.");
-                    else {
+                    } else {
                         saldoAtual -= valor;
                         System.out.println("Novo saldo: " + saldoAtual);
                     }
@@ -45,7 +45,10 @@ public class Desafio {
                     System.out.println("Valor pago: ");
                     double valor = leitura.nextDouble();
                     saldoAtual += valor;
+                    System.out.println("Novo saldo " + saldoAtual);
                 }
+            else if (opcao != 4) {
+                System.out.println("Opção inválida.");
             }
 
         }
